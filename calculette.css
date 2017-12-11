@@ -1,32 +1,85 @@
 body {
-	width: 100%;
-	background-color: GhostWhite;
-
+    width: 100%;
 }
-
 .wrapper {
-	display : flex;
-	width: 50%;
-	height: 100%;
-	text-align: center;
+    display : flex;
+    width: 40%;
+flex-wrap: wrap;
+padding-left: 30%; 
+
 
 }
-
 .container1 {
-	display: flex;
-	width: 100%;
-	flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: GhostWhite;
 
+}
+.container2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: GhostWhite;
 }
 
 .input {
-		display: flex;
-		width: 70%;
-		flex-wrap: wrap;
+        display: flex;
+        width: 60%;
+        flex-wrap: wrap;
+        padding: 15px;
+     margin: 15px; 
 
 }
 .reset {
-	display : flex;
-	width: 30%;
-	flex-wrap: wrap;
+    display : flex;
+    width: 15%;
+    flex-wrap: wrap;
+    background-color: IndianRed;
+    padding: 15px;
+    justify-content: center;
+
 }
+
+.number {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.id {
+     display flex;
+     width: 30%;
+     flex-wrap: wrap;
+ }
+.operator {
+     display flex;
+     width: 30%;
+     flex-wrap: wrap;
+ }
+ .numb {
+     display flex;
+     width: 15%;
+     flex-wrap: wrap;
+     background-color: CornflowerBlue;
+     padding: 15px;
+     margin: 15px;
+     
+}
+
+.ope {
+
+    display flex;
+     width: 30%;
+     flex-wrap: wrap;
+     background-color: CornflowerBlue;
+     padding: 15px;
+     margin: 15px;
+     justify-content: center;
+ }
+
+.numb:hover,
+ .ope:hover,
+ .reset:hover{
+     background-color: grey;
