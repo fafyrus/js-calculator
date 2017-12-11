@@ -1,0 +1,32 @@
+body {
+	width: 100%;
+	background-color: GhostWhite;
+
+}
+
+.wrapper {
+	display : flex;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+
+}
+
+.container1 {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+
+}
+
+.input {
+		display: flex;
+		width: 70%;
+		flex-wrap: wrap;
+
+}
+.reset {
+	display : flex;
+	width: 30%;
+	flex-wrap: wrap;
+}
